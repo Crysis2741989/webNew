@@ -36,7 +36,7 @@
                     <a class="nav-link" href="../pages/colaborar.html" style="font-weight: 500; color:#edeff5">Colaborar</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="../pages/inscripciones.html" style="font-weight: 500; color:#edeff5">Inscripciones</a>
+                    <a class="nav-link" href="#" style="font-weight: 500; color:#edeff5">Inscripciones</a>
                   </li>
                 </ul>
               </div>
@@ -44,42 +44,84 @@
           </nav>
     </header>
     <main>
-      <section>
-        <div class="siluetas">
-          <h1>Proyecto GC</h1>
-          <p>Los niños asisten a contra turno escolar en nuestro predio de González Catán cada semana. El proyecto GC realiza un programa educativo con actividades simultáneas como educación física, apoyo escolar, recreación con talleres de arte, música e idiomas. Los niños también participan de una merienda saludable. Las actividades están diseñadas para estimular, enseñar y entrenar las capacidades cognitivas, las relaciones de compañerismo con otros y el desarrollo físico.</p>
-        </div>
+        <section>
+            <div class="contenedor-principal-inscripciones">
+                
+                <div id="banner-inscripciones">
+                    <h1>¡¡INSCRIBITE!!</h1>
         
-      </section>
-      <section>
-        <h1 id="valores">Objetivos</h1>
-        <p class="p_proyecto">Para lograr nuestro objetivo de proveer oportunidades para el desarrollo integral de los niños y adolescentes, Los proyectos de GC se basan en tres ejes:</p>
-        <div class="ejes">
-          <div>
-            <img src="../imag/iconos/wireframe-06.svg" alt="">
-            <h2>Crecimiento</h2>
-          </div>
-          <div>
-            <img src="../imag/iconos/wireframe-07.svg" alt="">
-            <h2>conocimiento</h2>
-          </div>
-          <div>
-            <img src="../imag/iconos/wireframe-08.svg" alt="">
-            <h2>compañerismo</h2>
-          </div>    
-        <p class="p_proyecto">A través de nuestro programa educativo desarrollamos actividades que proveen oportunidades para lograr que los niños tengan buen crecimiento físico a través del deporte y la alimentación balanceada; para ayudar el desarrollo del conocimiento tienen apoyo pedagógico con enfoque en lenguas y matemáticas; y en lo relacional con talleres de arte, música e idiomas.</p>
-        </div>
-      
-      
-      </section>
+                </div>
+            
+                <div class="contenedor-inscripciones">
+                    <div class="foto-inscripciones">
+                        <img src="../imag/inscripciones/inscripciones.jpg" alt="">
+                    </div>
+                    
+                    <div class="formulario">
+                        <h2>
+                            Para inscribirse rellene el formulario
+                        </h2>
+                        <form action="">
+                        <ul id="form">
+                                <li>
+                                    <label for="Tutor">Nombre y apellido de tutor</label><br>
+                                    <input class="input" id="Tutor" type="text" required width="300px" placeholder="Nombre y Apellido" >
+                                </li>
+                                <br>
+                                <li>
+                                    <label for="Alumno">Nombre y apellido del alumno</label><br>
+                                    <input class="input" id="Alumno" type="text" required width="300px" placeholder="Nombre y Apellido" >
+                                </li>
+                                <br>
+                                <li>
+                                    <label for="Email">Email</label><br>
+                                    <input class="input" id="Email" type="text" required width="300px" placeholder="email@" >
+                                </li>
+                                <br>
+                                <li>
+                                    <label for="Telefono">Telefono</label><br>
+                                    <input class="input" id="Telefono" type="text" min="10" max="100" placeholder="1112345678" >
+                                </li>
+                                <br>
+                                <li>
+                                    <label for="turno">Seleccione un turno</label><br>
+                                        <select name="tunos" id="turno">
+                                            <option value="mañana">Mañana</option>
+                                            <option value="tarde">Tarde</option>
+                                        </select>
+                                        <br><br>
+                                    
+                                </li>
+                                <li>
+                                    <label for="Mensaje">Mensaje:</label><br>
+                                    <textarea class="input" id="Mensaje" name="Mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje..."></textarea>
+                                </li>
+                                <br>
+                                <button type="submit">Enviar</button>
+                                    
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+            
+            </div>
+            
+            
 
-
-
+        </section>
         
+
+
+
+
+
     </main>
+   
+   
     <div id="button-up">
-      <img src="../imag/iconos/chevron-up-solid.svg" alt="">
+        <img src="../imag/iconos/chevron-up-solid.svg" alt="">
     </div>
+    
     <script src="../js/boton.js"></script>
     <footer>
       <div class="footer">
